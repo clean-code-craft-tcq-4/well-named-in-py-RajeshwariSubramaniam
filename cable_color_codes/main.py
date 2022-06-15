@@ -5,9 +5,9 @@ from get_color_codes import (
 
 
 def get_colors(pair_number):
-    major, minor = get_color_from_pair_number(pair_number)
+    major_color, minor_color = get_color_from_pair_number(pair_number)
     print(f'Color coding for {pair_number} '
-          f'is {major} and {minor}')
+          f'is {major_color} and {minor_color}')
 
 
 def get_pair_number(major_color, minor_color):
